@@ -2,7 +2,7 @@
 Course assignment for Getting and Cleaning data
 
 <h3>Source data</h3>
-Study 'Human Activity Recognition Using Smartphones Data Set' performed by Jorge L. Reyes-Ortiz et.al.
+Study 'Human Activity Recognition Using Smartphones Data Set' performed by Jorge L. Reyes-Ortiz et.al.<br>
 More information: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 Source dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
