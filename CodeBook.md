@@ -55,4 +55,28 @@ This step requires the dplyr R-package and checks for availability on the user's
 The data is first grouped by subject and activity and then summarised by the 'mean' function.<br>
 The tidy_data.txt file is created in the current workdirectory.
 
+<h3>Tidy data variables</h3>
+The tidy dataset contains 180 observations of 81 variables. <br>
+The tidy dataset contains the following variables:<br>
+<b>Subject, column 1</b><br>
+30 subjects are included in the study. The 'test' and 'training' dataset are merged into the tidy dataset and for the purposes of this assignment no distinction between the two is made.<br><br>
+
+<b>Activity, column 2</b><br>
+Six different activities have been performed by all subjects. The activities are: Walking, Walking Downstairs, Walking Upstairs, Sitting, Standing and Laying. <br><br>
+
+<b>79 different measurements, all either mean or standard deviation<b><br>
+From the original dataset, only the 'mean' and 'standard deviation' of measurements are included in the tidy dataset. The data can be identified as follows:<br>
+<li>'.t' identifies time series data</li>
+<li>'.f' identifies frequency domain data</li>
+<li>'body.acc' identifies body acceleration</li>
+<li>'gyro' identifies angular speed</li>
+<li>'mag' identifies the magnitude of the signal</li>
+<li>'jerk' identifies jerk motion</li>
+<li>'mean' identifies the mean of the data</li>
+<li>'std' identifies the standard deviation of the data</li>
+<li>'x' 'y' and 'z' identify the axis of motion</li><br>
+
+For more information about the data collection method, refer to the following website: 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones <br>
+
 END
