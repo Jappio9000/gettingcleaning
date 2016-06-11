@@ -64,7 +64,7 @@ The tidy dataset contains the following variables:<br>
 <b>Activity, column 2</b><br>
 Six different activities have been performed by all subjects. The activities are: Walking, Walking Downstairs, Walking Upstairs, Sitting, Standing and Laying. <br><br>
 
-<b>79 different measurements, all either mean or standard deviation<b><br>
+<b>79 different measurements, all either mean or standard deviation</b><br>
 From the original dataset, only the 'mean' and 'standard deviation' of measurements are included in the tidy dataset. The data can be identified as follows:<br>
 <li>'.t' identifies time series data</li>
 <li>'.f' identifies frequency domain data</li>
